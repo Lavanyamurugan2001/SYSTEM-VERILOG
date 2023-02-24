@@ -1,0 +1,21 @@
+# vsim -do {run -all; exit;} -l reduction_code_output.log -c reduction_code 
+# Loading sv_std.std
+# Loading work.reduction_code
+# run -all 
+# 
+#  	 the value a is 1010
+# 
+#  	 the reduction output of NOT is  0 
+# 
+#  	 the reduction output of OR is 1 
+# 
+#  	 the reduction output of AND is 0 
+# 
+#  	 the reduction output of NOR is 0 
+# 
+#  	 the reduction output of NAND is 1 
+# 
+#  	 the reduction output of XOR is 0 
+# 
+#  	 the reduction output of XNOR is 1 
+#  exit 
