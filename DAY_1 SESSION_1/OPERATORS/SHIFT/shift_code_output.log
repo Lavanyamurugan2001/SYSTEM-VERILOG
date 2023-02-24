@@ -1,0 +1,17 @@
+# vsim -do {run -all; exit;} -l shift_code_output.log -c shift_code 
+# Loading sv_std.std
+# Loading work.shift_code
+# run -all 
+# 
+#  	 the value of a is 1011
+# 
+#  	 the value signed number of b is 1100
+# 
+#  	 the a of logical left shift(a<<2) operator output is 1100
+# 
+#  	 the b logical right shift(b>>2) operator output is 11
+# 
+#  	 the a Arithmetic left shift(a<<<1) operator output is 110
+# 
+#  	 the b Arithmetic right shift(b>>>3) operator output is 1111
+#  exit 
