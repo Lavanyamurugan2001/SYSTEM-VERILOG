@@ -1,0 +1,17 @@
+# vsim -do {run -all; exit;} -l logic_code_output.log -c logic_code 
+# Loading sv_std.std
+# Loading work.logic_code
+# run -all 
+# 
+#  	 The value of a is 4
+# 
+#  	 The value of b is 111
+# 
+#  	 The value of c is 0x
+# 
+#  	 The output of logic OR a||c is 1
+# 
+#  	 The output of logic AND b && c is 0x
+# 
+#  	 The output of logic NOT !b is 0x
+#  exit 
