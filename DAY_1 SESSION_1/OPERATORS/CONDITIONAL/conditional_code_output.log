@@ -1,0 +1,11 @@
+# vsim -do {run -all; exit;} -l conditional_code_output.log -c conditional_code 
+# Loading sv_std.std
+# Loading work.conditional_code
+# run -all 
+# 
+#  	 the value of c is 11
+# 
+#  	 the value of d is 1001
+# 
+#  	 the conditional output is false
+#  exit 
