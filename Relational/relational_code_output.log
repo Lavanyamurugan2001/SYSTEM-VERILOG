@@ -1,0 +1,17 @@
+# vsim -do {run -all;quit;} -l relational_code_output.log -c relational_code 
+# Loading sv_std.std
+# Loading work.relational_code
+# run -all 
+# 
+#  	 Value of a is 111
+# 
+#  	 Value of b is 101
+# 
+#  	 the output of the a < b is 0
+# 
+#  	 the output of the a > b is 1
+# 
+#  	 the output of the a <= b is 0
+# 
+#  	 the output of the a >= b is 1
+# quit 
