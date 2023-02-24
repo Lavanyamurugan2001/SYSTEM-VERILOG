@@ -1,0 +1,35 @@
+# vsim -do {run -all; exit;} -l arithmetic_code_output.log -c arithmetic_code 
+# Loading sv_std.std
+# Loading work.arithmetic_code
+# run -all 
+# -------------------------
+# 
+#  	 the value of a = 10
+# 
+#  	 the value of b = 5
+# 
+#  	 The arithmetic addition of a and b 
+# 
+#  	 the value of y is after doing a + b is 15
+# 
+#  	 The arithmetic subtraction of a and b
+# 
+#  	 the value of y is after doing a-b is 5
+# 
+#  	 The arithmetic multiplication  of a and b
+# 
+#  	 the value of y is after doing a*b is 50
+# 
+#  	 The arithmetic division  of a and b
+# 
+#  	 the value of y is after doing a/b is 2
+# 
+#  	 The arithmetic modulus of a and b
+# 
+#  	 the value y is after doing a modulus b is 0
+# 
+#  	 The arithmetic Exponential operator  of a and b
+# 
+#  	 the value of y is after doing a ** b is 100000
+# -------------------------
+#  exit 
