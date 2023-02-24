@@ -1,0 +1,16 @@
+# vsim -do {run -all; exit;} -l data_type_bit.log -c data_type_bit 
+# Loading sv_std.std
+# Loading work.data_type_bit
+# run -all 
+# 
+# Before initialization Default value of single bit data = 0
+# Before initialization Default value of 4 bit data = 0
+# 
+# After initialization value of single bit data = 1
+# After initialization value of 4 bit data = 1100
+# 
+# //initialization x and z of 4-bit data = 4'b11xz
+# 
+# After assign x and z, value of 4 bit data = 1100
+# 
+#  exit 
