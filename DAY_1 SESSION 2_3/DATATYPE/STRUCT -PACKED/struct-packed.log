@@ -1,0 +1,18 @@
+# vsim -do {run -all;quit;} -l struct-packed.log -c emp_info 
+# Loading sv_std.std
+# Loading work.struct2dpacked_sv_unit
+# Loading work.emp_info
+# run -all 
+# 
+#  Packed structure example
+# 
+#  structure name 'employee_details_s' 
+# 
+#  emp_info1.id = 43
+# 
+#  emp_info1.experience = 2
+# 
+#  emp_info1.salary = 25000
+# 
+#  Bitstream size of emp_info1: 32
+# quit 
