@@ -1,0 +1,22 @@
+# vsim -do {run -all; exit;} -l arraymax.log -c tb 
+# Loading sv_std.std
+# Loading work.tb
+# run -all 
+# 
+# array[8] = {1,9,9,7,2,7,0,6}
+# 
+#  OUTPUT: 
+# 
+#  // min()-Return the minimum value from the array: 
+# 	'{0} 
+# 
+#  // max()-Return the maximum value from the array: 
+# 	'{9} 
+# 
+#  // unique()-Return the unique value from the array repeated values can be return once: 
+# 	'{0, 1, 2, 6, 7, 9} 
+# 
+#  // unique_index()-Return the indices of all value having unique values: 
+# 	'{6, 0, 4, 7, 3, 1}
+# 
+#  exit 
