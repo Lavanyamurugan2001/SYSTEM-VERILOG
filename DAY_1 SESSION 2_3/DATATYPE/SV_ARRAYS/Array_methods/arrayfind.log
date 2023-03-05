@@ -1,0 +1,35 @@
+# vsim -do {run -all; exit;} -l arrayfind.log -c array_find 
+# Loading sv_std.std
+# Loading work.array_find
+# run -all 
+# 
+# array[5] = ['bangalore', 'yelahanka', 'maruthinagar', 'oldtown', 'newtown']
+# 
+# ASCII character and its values 
+#  b=098; 
+#  y=121; 
+#  m=109; 
+#  o=111; 
+#  n=110;
+# 
+#  OUTPUT:
+# 
+#  // find()-Returns all elements satisfying (check >='oldtown'):
+# 	 '{"yelahanka", "oldtown"}
+# 
+#  // find_index()-Returns the indices of all elements satisfying(check =='yelahanka'):
+# 	 '{1}
+# 
+#  // find_first()-Returns the first element satisfying(check < 'yelahanka' & check >= 'newton' ): 
+# 	 '{"oldtown"}
+# 
+#  // find_first_index()-Returns the index of the first element satisfying(check < 'yelahanka'): 
+# 	 '{0}
+# 
+#  // find_last()- Returns the last element satisfying(check <'oldtown'): 
+# 	 '{"newtown"}
+# 
+#  // find_last_index()-Returns the index of the last element satisfying (check < 'oldtown'): 
+# 	 '{4}
+# 
+#  exit 
